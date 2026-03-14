@@ -8,6 +8,6 @@ def makeQR(toConvert, outfile):
     img = qrcode.make(toConvert)
     type(img)
     img.save(outFile)
-
+                    
 
 
